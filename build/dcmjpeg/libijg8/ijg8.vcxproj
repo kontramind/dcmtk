@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{EB5AEC4A-A965-3914-9B7D-2BF0565B4686}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ijg8</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\dcmtk\build\dcmjpeg\libijg8\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ijg8.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ijg8</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\dcmtk\build\dcmjpeg\libijg8\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ijg8.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ijg8</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\dcmtk\build\dcmjpeg\libijg8\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ijg8.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ijg8</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\dcmtk\build\dcmjpeg\libijg8\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ijg8.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ijg8</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/dev/dcmtk/root/dcmjpeg/libijg8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/dcmtk/root -BC:/dev/dcmtk/build --check-stamp-file C:/dev/dcmtk/build/dcmjpeg/libijg8/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/dev/dcmtk/root/dcmjpeg/libijg8/CMakeLists.txt;C:\dev\dcmtk\root\dcmjpeg\libijg8\CMakeLists.txt;C:\dev\dcmtk\root\dcmjpeg\libijg8\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\dcmtk\build\dcmjpeg\libijg8\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/dev/dcmtk/root/dcmjpeg/libijg8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/dcmtk/root -BC:/dev/dcmtk/build --check-stamp-file C:/dev/dcmtk/build/dcmjpeg/libijg8/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/dev/dcmtk/root/dcmjpeg/libijg8/CMakeLists.txt;C:\dev\dcmtk\root\dcmjpeg\libijg8\CMakeLists.txt;C:\dev\dcmtk\root\dcmjpeg\libijg8\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\dcmtk\build\dcmjpeg\libijg8\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/dev/dcmtk/root/dcmjpeg/libijg8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/dcmtk/root -BC:/dev/dcmtk/build --check-stamp-file C:/dev/dcmtk/build/dcmjpeg/libijg8/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/dev/dcmtk/root/dcmjpeg/libijg8/CMakeLists.txt;C:\dev\dcmtk\root\dcmjpeg\libijg8\CMakeLists.txt;C:\dev\dcmtk\root\dcmjpeg\libijg8\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\dcmtk\build\dcmjpeg\libijg8\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/dev/dcmtk/root/dcmjpeg/libijg8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/dcmtk/root -BC:/dev/dcmtk/build --check-stamp-file C:/dev/dcmtk/build/dcmjpeg/libijg8/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/dev/dcmtk/root/dcmjpeg/libijg8/CMakeLists.txt;C:\dev\dcmtk\root\dcmjpeg\libijg8\CMakeLists.txt;C:\dev\dcmtk\root\dcmjpeg\libijg8\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\dcmtk\build\dcmjpeg\libijg8\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jaricom.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcapimin.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcapistd.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcarith.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jccoefct.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jccolor.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcdctmgr.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcdiffct.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jchuff.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcinit.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jclhuff.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jclossls.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jclossy.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcmainct.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcmarker.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcmaster.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcodec.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcomapi.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcparam.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcphuff.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcpred.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcprepct.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcsample.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcscale.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jcshuff.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jctrans.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdapimin.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdapistd.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdarith.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdatadst.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdatasrc.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdcoefct.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdcolor.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jddctmgr.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jddiffct.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdhuff.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdinput.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdlhuff.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdlossls.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdlossy.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdmainct.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdmarker.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdmaster.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdmerge.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdphuff.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdpostct.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdpred.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdsample.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdscale.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdshuff.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jdtrans.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jerror.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jfdctflt.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jfdctfst.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jfdctint.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jidctflt.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jidctfst.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jidctint.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jidctred.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jmemmgr.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jmemnobs.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jquant1.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jquant2.c"  />
+    <ClCompile Include="C:\dev\dcmtk\root\dcmjpeg\libijg8\jutils.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\dev\dcmtk\build\ZERO_CHECK.vcxproj">
+      <Project>B683595C-D777-3A0B-BDC5-614E02806432</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
