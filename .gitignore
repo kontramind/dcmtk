@@ -52,3 +52,5 @@ libtiff/\.vs/
 libtiff/Debug/
 
 ext\.VC\.db
+
+\.vs/ext/v14/\.suo
