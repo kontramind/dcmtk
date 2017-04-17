@@ -30,3 +30,23 @@
 ext\.sdf
 
 *.opendb
+
+x64/
+
+libjpeg/Debug/
+
+support/
+
+libzlib/Debug/
+
+libzlib/\.vs/
+
+libjpeg/\.vs/
+
+libpng/Debug/
+
+libpng/\.vs/
+
+libtiff/\.vs/
+
+libtiff/Debug/
