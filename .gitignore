@@ -54,3 +54,11 @@ libtiff/Debug/
 ext\.VC\.db
 
 \.vs/ext/v14/\.suo
+
+ext/libjpeg/Debug/
+
+ext/libpng/Debug/
+
+ext/libzlib/Debug/
+
+ext/libtiff/Debug/
