@@ -64,3 +64,5 @@ ext/libzlib/Debug/
 ext/libtiff/Debug/
 
 ext/\.vs/
+
+build/DCMTK\.VC\.db
