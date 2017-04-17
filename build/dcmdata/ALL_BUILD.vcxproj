@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{039774BE-B0CA-3924-9400-CF951728FCCA}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\dcmtk\build\include;C:\dev\dcmtk\root\ofstd\include;C:\dev\dcmtk\root\oflog\include;C:\dev\dcmtk\root\dcmdata\include;C:\dev\dcmtk\root\dcmimgle\include;C:\dev\dcmtk\root\dcmimage\include;C:\dev\dcmtk\root\dcmjpeg\libijg8;C:\dev\dcmtk\root\dcmjpeg\libijg12;C:\dev\dcmtk\root\dcmjpeg\libijg16;C:\dev\dcmtk\root\dcmjpeg\include;C:\dev\dcmtk\root\dcmjpls\include;C:\dev\dcmtk\root\dcmnet\include;C:\dev\dcmtk\root\dcmpstat\include;C:\dev\dcmtk\root\dcmqrdb\include;C:\dev\dcmtk\root\dcmsign\include;C:\dev\dcmtk\root\dcmsr\include;C:\dev\dcmtk\root\dcmtls\include;C:\dev\dcmtk\root\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\dcmtk\root\dcmdata\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/dev/dcmtk/root/dcmdata/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/dcmtk/root -BC:/dev/dcmtk/build --check-stamp-file C:/dev/dcmtk/build/dcmdata/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/dev/dcmtk/root/dcmdata/CMakeLists.txt;C:\dev\dcmtk\root\dcmdata\CMakeLists.txt;C:\dev\dcmtk\root\dcmdata\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\dcmtk\build\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/dev/dcmtk/root/dcmdata/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/dcmtk/root -BC:/dev/dcmtk/build --check-stamp-file C:/dev/dcmtk/build/dcmdata/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/dev/dcmtk/root/dcmdata/CMakeLists.txt;C:\dev\dcmtk\root\dcmdata\CMakeLists.txt;C:\dev\dcmtk\root\dcmdata\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\dcmtk\build\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/dev/dcmtk/root/dcmdata/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/dcmtk/root -BC:/dev/dcmtk/build --check-stamp-file C:/dev/dcmtk/build/dcmdata/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/dev/dcmtk/root/dcmdata/CMakeLists.txt;C:\dev\dcmtk\root\dcmdata\CMakeLists.txt;C:\dev\dcmtk\root\dcmdata\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\dcmtk\build\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/dev/dcmtk/root/dcmdata/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/dev/dcmtk/root -BC:/dev/dcmtk/build --check-stamp-file C:/dev/dcmtk/build/dcmdata/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/dev/dcmtk/root/dcmdata/CMakeLists.txt;C:\dev\dcmtk\root\dcmdata\CMakeLists.txt;C:\dev\dcmtk\root\dcmdata\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\dcmtk\build\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\dev\dcmtk\build\ZERO_CHECK.vcxproj">
+      <Project>B683595C-D777-3A0B-BDC5-614E02806432</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\apps\dcm2pdf.vcxproj">
+      <Project>A06EE557-C8AA-3546-8255-9723842DD3DF</Project>
+      <Name>dcm2pdf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\apps\dcm2xml.vcxproj">
+      <Project>F76D040C-826E-30A6-A22C-BCB62FA29221</Project>
+      <Name>dcm2xml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\apps\dcmconv.vcxproj">
+      <Project>FC120CC8-6789-305F-8FC2-E3083AE32FD1</Project>
+      <Name>dcmconv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\apps\dcmcrle.vcxproj">
+      <Project>1D44CDF6-14B3-37AD-807B-A21596A3E8DB</Project>
+      <Name>dcmcrle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\libsrc\dcmdata.vcxproj">
+      <Project>3F2487E7-D916-39E8-B544-C53027CF6702</Project>
+      <Name>dcmdata</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\apps\dcmdrle.vcxproj">
+      <Project>E6BF12C4-55C7-31A2-9E43-8C40CCEE5B5D</Project>
+      <Name>dcmdrle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\apps\dcmdump.vcxproj">
+      <Project>0395B068-2258-3575-AD45-3663BF7B0C38</Project>
+      <Name>dcmdump</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\apps\dcmftest.vcxproj">
+      <Project>34C314E6-A763-34A3-8213-D447568658A3</Project>
+      <Name>dcmftest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\apps\dcmgpdir.vcxproj">
+      <Project>61DE21D1-9B49-3F68-BA30-BAB690927BEC</Project>
+      <Name>dcmgpdir</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\apps\dcmodify.vcxproj">
+      <Project>B880795F-5DC4-3E38-9AD9-6072B92BAAC0</Project>
+      <Name>dcmodify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\apps\dump2dcm.vcxproj">
+      <Project>F0E20645-6C16-3F1F-B79B-4E9088E8C7DB</Project>
+      <Name>dump2dcm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\tests\i2dbmp.vcxproj">
+      <Project>98A97BF8-F9C8-316D-8E01-04ADF49695D4</Project>
+      <Name>i2dbmp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\apps\img2dcm.vcxproj">
+      <Project>2DBBCC5F-7017-39CA-AA3B-B6887F43CAD1</Project>
+      <Name>img2dcm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\libi2d\libi2d.vcxproj">
+      <Project>4D568953-6FBD-3A98-BF43-D4A11717F915</Project>
+      <Name>libi2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\apps\pdf2dcm.vcxproj">
+      <Project>E17AFBEC-5DCE-37EE-B620-68A78F8F9C5C</Project>
+      <Name>pdf2dcm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\tests\tstchval.vcxproj">
+      <Project>6E9CEF2B-7293-3777-A909-72F1B2938D27</Project>
+      <Name>tstchval</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\tests\tstpath.vcxproj">
+      <Project>B815FDA2-87FA-3A9E-BB26-3DDA0F8E6AA7</Project>
+      <Name>tstpath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\tests\tstpread.vcxproj">
+      <Project>3DB6A67F-8BA6-3412-8017-580A0286EDA3</Project>
+      <Name>tstpread</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\tests\tvrdatim.vcxproj">
+      <Project>D78F01A4-9A84-362F-BB0D-2B8EBE56C6EB</Project>
+      <Name>tvrdatim</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\dcmtk\build\dcmdata\apps\xml2dcm.vcxproj">
+      <Project>E7326B4B-BAE3-3E9B-A4DA-80D11C704B65</Project>
+      <Name>xml2dcm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

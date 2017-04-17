@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\assoc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\cond.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dcasccff.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dcasccfg.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dccfenmp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dccfpcmp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dccfprmp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dccfrsmp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dccftsmp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dccfuidh.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dcmlayer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dcmtrans.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dcompat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dimcancl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dimcmd.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dimdump.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dimecho.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dimfind.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dimget.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dimmove.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dimse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dimstore.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\diutil.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dul.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dulconst.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dulextra.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dulfsm.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dulparse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dulpres.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\extneg.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\lst.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dfindscu.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\dcuserid.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\scu.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\dcmtk\root\dcmnet\libsrc\scp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\dcmtk\root\dcmnet\libsrc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EB223A0A-707E-3283-8B44-1528A11494B0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
