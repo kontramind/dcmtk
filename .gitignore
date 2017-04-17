@@ -50,3 +50,5 @@ libpng/\.vs/
 libtiff/\.vs/
 
 libtiff/Debug/
+
+ext\.VC\.db
